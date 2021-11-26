@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.card .ptcard {
+  width: 20vw;
+  height: 70vh;
+}
+
+.card .ptcard .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 16.1vw;
+  margin: 2.9rem 0 0 2.9rem;
+  height: 60vh;
+}
+
+.card .ptcard img {
+  width: 58px;
+}
+
+.card .ptcard .title {
+  color: #f2f2f2;
+  font-family: 'Big Shoulders Display',sans-serif;
+  font-weight: 700;
+  font-size: 2.4em;
+  text-align: left;
+}
+
+.card .ptcard .description {
+  width: 190px;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Lexend Deca',sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 1.5rem;
+}
+
+.card .ptcard button {
+  width: 130px;
+  padding: 12px 30px;
+  border-style: none;
+  border-radius: 20px;
+  margin-top: 30px;
+  font-size: 12px;
+  font-family: 'Lexend Deca',sans-serif;
+}
+
+.card .ptcard .btn1 {
+  color: #e38826;
+}
+
+.card .ptcard .btn2 {
+  color: #006970;
+}
+
+.card .ptcard .btn3 {
+  color: #004241;
+}
+
+.sedan {
+  background-color: #e38826;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.suv {
+  background-color: #006970;
+}
+
+.luxury {
+  background-color: #004241;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    height: 300vh;
+  }
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card .ptcard {
+    width: 300px;
+  }
+  .card .ptcard .description {
+    width: 210px;
+  }
+  .card .sedan {
+    background-color: #e38826;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0;
+  }
+  .card .suv {
+    background-color: #006970;
+  }
+  .card .luxury {
+    background-color: #004241;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

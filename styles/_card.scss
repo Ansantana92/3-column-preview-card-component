@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    .ptcard{
+        width: 20vw;
+        height: 70vh;
+
+        .wrap{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 16.1vw;
+            margin: 2.9rem 0 0 2.9rem;
+            height: 60vh;
+        }
+        img{
+            width: 58px;
+        }
+        .title{
+            color:$very-light-gray;
+            font-family: 'Big Shoulders Display',sans-serif;
+            font-weight: 700;
+            font-size: 2.4em;
+            text-align: left;
+            
+        }
+        
+        .description{
+            width: 190px;
+            color:$transparent-white;
+            font-family: 'Lexend Deca',sans-serif;
+            font-weight: 400;
+            font-size: 0.9em;
+            line-height: 1.5rem;
+        }
+        button{
+            width: 130px;
+            padding: 12px 30px;
+            border-style: none;
+            border-radius: 20px;
+            margin-top: 30px;
+            font-size: 12px;
+            font-family: 'Lexend Deca',sans-serif;
+        }
+        .btn1{
+            color:$bright-orange;
+        }
+        .btn2{
+            color:$dark-cyan;}
+        .btn3{
+            color:$very-dark-cyan;}
+     
+    }
+}
+.sedan{background-color: $bright-orange; border-top-left-radius: 0.5rem; border-bottom-left-radius: 0.5rem;}
+.suv{background-color: $dark-cyan;}
+.luxury{background-color: $very-dark-cyan; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem;}

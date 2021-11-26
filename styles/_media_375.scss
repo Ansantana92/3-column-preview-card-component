@@ -1,0 +1,22 @@
+@media screen and (max-width:900px){
+    .container{height: 300vh;}
+    .card{
+        display: flex;
+        flex-direction: column;
+        .ptcard{
+            width: 300px;
+            
+            .description{
+                width: 210px;
+                
+            }
+            
+
+
+        }   
+        .sedan{background-color: $bright-orange; border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; border-bottom-left-radius:0 ;}
+        .suv{background-color: $dark-cyan;}
+        .luxury{background-color: $very-dark-cyan; border-bottom-right-radius: 0.5rem; border-bottom-left-radius: 0.5rem; border-top-right-radius: 0;}
+    }
+    
+}
