@@ -12,7 +12,7 @@ Thanks for checking out this front-end coding challenge.
     Durante esse projeto resolvi quase todas as questões sozinho com os conhecimentos já adquiridos, porém tive dificuldade em reproduzir o design de forma fiel novamente!
   - [The challenge](#the-challenge)
     Construir a sintaxe básica de HTML foi simples, o css estava muito claro para mim, com a utilização de flexbox e tudo mais , porém, novamente o empecilho de estar reproduzindo fielmente no tamanho. Percebi que por minha tela ser pequena , não consigo usar o pure ref de tal forma que fique na resolução de 1440px, talvez isso ajudasse.
-    O site está postado em https://brave-roentgen-d93a0d.netlify.app
+    O site está postado em https://laughing-montalcini-122d87.netlify.app
   - [My process](#my-process)
     O processo de construção desse site e desses novos conhecimentos de programação é muito gratificante, espero melhorar minha analise de processos em todas as areas que eu me dedicar com isso.
   - [Built with](#built-with)
